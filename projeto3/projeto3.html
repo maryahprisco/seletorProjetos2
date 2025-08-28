@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AUTOCAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+<style> 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden
+}
+
+.cabecalho{
+    background-image: radial-gradient(circle, #353534,#353534,#353534,#353534,#353534)
+    
+}
+
+.cabecalho a{
+    color: white;
+    font-family:"fw-light";
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+            background-size: cover;
+            background-color: #f3efe4;
+        }
+
+button:hover {
+            background-color: #cecbc2;
+        }
+
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<!-- CABECALHO -->
+
+<header>
+    <nav class="navbar navbar-dark bg-dark fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand justify-content-center" href="#">AUTOCAR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="fw-light" id="offcanvasDarkNavbarLabel">AUTOCAR</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="D:\projeto\src\sites\projeto4\projeto4.html" class="btn btn-outline-dark">Produtos</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contato">Contato</a>
+                  </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+
+
+
+
+
+
+
+
+<!-- CONTEUDO -->
+
+<main class="flex-fill">
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.goodcarbadcar.net/wp-content/uploads/2016/11/Volvo-V90-1024x683.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Volvo V90</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.automotivetestingtechnologyinternational.com/wp-content/uploads/2022/11/04BUGATTI_CENTODIECI-Dynamic-Approval.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Bugatti Centodieci </h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.collectingcars.com/073731/sales106.jpg?w=1263&fit=fillmax&crop=edges&auto=format,compress&cs=srgb&q=85" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Aston Martin DBS Superleggera TAG Heuer Edition</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section style="background-color: rgb(24, 24, 24);">
+        <div 
+        style="width: 100%;height: 50vh; color: #f3efe4;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <h1 class="fw-light">
+        NOSSA HISTÓRIA 
+        </h1>
+        <br>
+        <p style="text-align: center;">
+          A Autocar nasceu da paixão de dois amigos de longa data, Daniel e Grilo, por carros de luxo e pela ideia de oferecer algo além do comum. Movidos por esse sonho em comum, fundaram a concessionária com o propósito de redefinir o mercado automotivo de alto padrão na região.
+
+            Desde o início, Daniel trouxe sua visão estratégica e comercial, enquanto Grilo se destacou pela atenção aos detalhes e profundo conhecimento técnico. Essa combinação deu origem a uma empresa sólida, reconhecida por oferecer veículos exclusivos, atendimento personalizado e um compromisso inabalável com a qualidade.
+            
+            Ao longo dos anos, a Autocar se consolidou como referência no segmento de luxo, atendendo clientes exigentes com elegância, transparência e confiança. Mais do que uma concessionária, a Autocar representa o encontro entre paixão e excelência — valores que continuam guiando Daniel e Grilo em cada nova conquista.
+        </p>
+    </div>
+    </section>
+
+    <section style="background-color: rgb(24, 24, 24);">
+        <h1 class="fw-light" style="color: #f3efe4;text-align: center">
+            DESTAQUES
+        </h1>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="card-group">
+            <div class="card">
+              <img src="https://www.planetcarsz.com/assets/uploads/2019/01/fdc1618107866b683760f7d2d6a5b834.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Maserati Levante </h5>
+                <a href="D:\projeto\src\sites\projeto4\projeto4.html" class="btn btn-outline-dark">MAIS</button></a>        
+            </div>
+            </div>
+            <div class="card">
+              <img src="https://www.planetcarsz.com/assets/uploads/2015/01/6f47b8b800a7a0911b50326cc71ee0ec.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Porsche Panamera Turbo S</h5>               
+                <a href="D:\projeto\src\sites\projeto4\projeto4.html" class="btn btn-outline-dark">MAIS</button></a> 
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfolVm_kIZozvs9fJ72m22D3E67dagdUyqIn46cEKwp6XDt2ezYtNvcRX7FHc-4VZ4T76T9BNfdlfu9616_xuQrNxB-6c_C1EeUOluo5GbygAgxXPsJxbxkMtwIZkazY7BV6_YAsyMfAkB/s1600/Purosangue+2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ferrari Purosangue</h5>
+                <a href="D:\projeto\src\sites\projeto4\projeto4.html" class="btn btn-outline-dark">MAIS</button></a> 
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <section style="background-color: rgb(59, 59, 59);">      
+        <div 
+        style="width: 100%;height: 50vh; color: #f3efe4;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+        <h1 class="fw-light" id="Contato">
+        FAÇA PARTE DA COMUNIDADE AUTOCAR OU ENTRE CONOSCO
+        </h1><div>
+                <form action=""  method="get">
+        
+                    <label for="nomeAluno">NOME</label><br>
+                    <input type="text" required name="nomeAluno">
+                    <br>
+                    <label for="senha">SENHA</label><br>
+                    <input type="password"required name="senha">
+                    <br>
+        
+                    <label for="">Salvar meus dados</label>
+                    <input type="checkbox"><br>
+            
+            
+                    
+                    <button type="submit">ENVIAR</button>
+            
+            </form>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+<!-- RODAPE -->
+    <footer style="background-color: black;">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="fw-light" aria-current="page" href="#">© 2025|Todos os direitos reservados.</a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
