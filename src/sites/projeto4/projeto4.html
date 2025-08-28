@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AUTOCAR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden
+        }
+
+        body {
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 10000px;
+        }
+
+        body {
+            display: flex;
+        }
+
+        .container-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1 1 300px;
+            border: 1px solid #ccc;
+            padding: 15px;
+            box-sizing: border-box
+        }
+
+        .container-cards{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+
+<body style="background-color: rgb(24, 24, 24);">
+
+    <!-- CABECALHO -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand justify-content-center" href="D:\projeto\src\sites\projeto3\projeto3.html">AUTOCAR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="fw-light" id="offcanvasDarkNavbarLabel">AUTOCAR</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="D:\projeto\src\sites\projeto3\projeto3.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="D:\projeto\src\sites\projeto4\projeto4.html"
+                                    class="btn btn-outline-dark">Produtos</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTEUDO -->
+<section>
+    <div class="col">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+                <div class="card-body">
+                    <img src="https://de.unterberger.cc/wp-content/uploads/sites/2/2023/01/VEHICLE_VIEW_030_BMW-M4-Competition-M-xDrive_1724944694929.jpg" class="card-img-top" alt="...">
+                    <h5 class="fw-light">BMW M4 Coupé</h5>
+                    <h5 class="card-title">R$ 1.399.950,00</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="https://i.ebayimg.com/images/g/nqAAAOSwjthnTNxg/s-l1600.webp" class="card-img-top" alt="...">
+                    <h5 class="fw-light">Porsche 718 Spyder</h5>
+                    <h5 class="card-title">R$ 1.237.624,00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section>
+    <div class="col"></div>
+        <div class="col-sm-6 mb-3 mb-sm-0 display: flex;
+        flex-direction: column;">
+            <div class="card">
+                <div class="card-body">
+                    <img src="https://m.media-amazon.com/images/I/71u9KHWxf0L._UF894,1000_QL80_.jpg" class="card-img-top" alt="...">
+                    <h5 class="fw-light">Aston Martin Vantage V12 Green Model Vehicle</h5>
+                    <h5 class="card-title">R$ 5.000.000,00</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="https://directimports.com.br/wp-content/uploads/2023/05/rolls-royce-phantom-2023-19.webp" class="card-img-top" alt="...">
+                    <h5 class="fw-light">Rolls-Royce Phantom 2025</h5>
+                    <h5 class="card-title">R$ 2.900.00,00</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="col"></div>
+    <div class="col-sm-6 mb-3 mb-sm-0 display: flex;
+    flex-direction: column;">
+        <div class="card">
+            <div class="card-body">
+                <img src="https://www.premiumfelgi.pl/userdata/gfx/66895.jpg" class="card-img-top" alt="...">
+                <h5 class="fw-light">Lamborghini Aventador S</h5>
+                <h5 class="card-title">R$ 7.000.000,00</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <img src="https://static.kbb.com.br/pkw/p/mercedes/a-class/2019/4sa.jpg" class="card-img-top" alt="...">
+                <h5 class="fw-light">Rolls-Royce Phantom 2025</h5>
+                <h5 class="card-title">R$ 889.900,00</h5>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./src/framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
